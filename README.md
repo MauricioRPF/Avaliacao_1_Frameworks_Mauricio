@@ -1,44 +1,38 @@
-# biblioteca-de-jogos
+# Biblioteca de Jogos
 
-This template should help get you started developing with Vue 3 in Vite.
+Este projeto é uma aplicação web simples desenvolvida com Vue.js 3 que funciona como uma biblioteca pessoal de jogos. A aplicação demonstra o domínio de conceitos como roteamento (vue-router), persistência de dados no navegador (localStorage) e a criação de uma interface de usuário completa com Vuetify 3.
 
-## Recommended IDE Setup
+## Funcionalidades
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Catálogo de Jogos**: Lista todos os jogos cadastrados em um formato de cards.
+- **CRUD Completo**: Permite Criar, Ler, Update (Atualizar) e Deletar jogos.
+- **Persistência de Dados**: Todos os dados são salvos e lidos diretamente do localStorage do navegador, mantendo as informações mesmo após a página ser fechada.
+- **Componentes Reutilizáveis**: O projeto utiliza componentes como GameCard e GameForm para modularizar e reutilizar o código.
 
-## Recommended Browser Setup
+## Como Executar o Projeto
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+Para rodar este projeto em sua máquina local, siga os passos abaixo.
 
-## Customize configuration
+### Pré-requisitos
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Certifique-se de que você tem o Node.js e o npm instalados em seu sistema.
 
-## Project Setup
+### Passos
 
-```sh
+1. Clone este repositório para o seu computador:
+```bash
+git clone https://github.com/MauricioRPF/biblioteca-de-jogos.git 
+```
+2. Navegue até o diretório do projeto
+``` bash
+cd biblioteca de jogos
+```
+3. instale todas as dependências
+``` bash
 npm install
 ```
+4. inicie o servidore de desenvolvimento
 
-### Compile and Hot-Reload for Development
+Aplicação estará disponível em https://localhost:___/
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+Desenvolvido por: Mauricio Roberto Pagliarini Filho.
